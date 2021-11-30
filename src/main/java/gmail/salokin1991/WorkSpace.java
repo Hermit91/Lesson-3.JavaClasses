@@ -75,9 +75,10 @@ public class WorkSpace {
 
         GetterSetterClass someGetSet = new GetterSetterClass();
 
-        someGetSet.someChar = '%';
-        someGetSet.someInt = 4;
-        someGetSet.someString = "someText";
+        someGetSet.
+                setSomeChar('%').
+                setSomeInt(4).
+                setSomeString("SomeText");
 
         System.out.println(" ");
         System.out.println("Assigned values in GetterSetterClass:");
